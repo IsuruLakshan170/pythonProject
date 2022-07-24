@@ -1,3 +1,8 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from sklearn.linear_model import LinearRegression
+
 # # one dimensional example
 # from numpy import array
 # # list of data
@@ -62,7 +67,27 @@
 # print(train)
 # print(test)
 
-# array shape
+# # array shape
+# from numpy import array
+# # list of data
+# data = [[11, 22],
+# 		[33, 44],
+# 		[55, 66]]
+# # array of data
+# data = array(data)
+# print(data.shape)
+
+# # reshape 1D array
+# from numpy import array
+# from numpy import reshape
+# # define array
+# data = array([11, 22, 33, 44, 55])
+# print(data.shape)
+# # reshape
+# data = data.reshape((data.shape[0], 1))
+# print(data.shape)
+
+# reshape 2D array
 from numpy import array
 # list of data
 data = [[11, 22],
@@ -71,3 +96,15 @@ data = [[11, 22],
 # array of data
 data = array(data)
 print(data.shape)
+# reshape
+data = data.reshape((data.shape[0], data.shape[1], 1))
+print(data.shape)
+
+
+
+
+
+
+
+
+
