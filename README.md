@@ -1,6 +1,6 @@
 # Machine Learning Using pythonProject
 
-Basic Machine learnging concepts,
+Basic Machine learnging concepts
 
 Machine Learning types
 
