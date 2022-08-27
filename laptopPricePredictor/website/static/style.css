@@ -5,7 +5,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background: black;
+    background: rgb(25, 114, 136);
     padding: 0 10px;
 }
 .wrapper{
@@ -16,33 +16,28 @@ body{
     box-shadow: 2px 2px 4px rgba(0,0,0,0.125);
     padding: 30px;
 }
-  
 .wrapper .title{
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 25px;
-    color: black;
+    color: rgb(36, 63, 211);
     text-transform: uppercase;
     text-align: center;
 }
-  
 .wrapper .form{
     width: 100%;
 }
-  
 .wrapper .form .inputfield{
     margin-bottom: 15px;
     display: flex;
     align-items: center;
 }
-  
 .wrapper .form .inputfield label{
      width: 200px;
      color: black;
      margin-right: 10px;
     font-size: 14px;
 }
-
 .check{
     margin-bottom: 15px;
     display: flex;
@@ -89,16 +84,15 @@ body{
     padding: 8px 10px;
     font-size: 15px; 
     border: 0px;
-    background:  black;
+    background:  rgb(36, 63, 211);
     color: #fff;
     cursor: pointer;
     border-radius: 3px;
     outline: none;
 }
-  
 .result p{
     text-align: center;
-    color: blue;
+    color: rgb(0, 0, 0);
     font-size: 18px;
     font-weight: bold;
 }
